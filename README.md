@@ -1,2 +1,2 @@
 # slgtest
-sean test
+This is an update test
