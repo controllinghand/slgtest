@@ -1,5 +1,5 @@
 # ubuntu Auto Update OS Patches
-This repo has a script that run every day to update the OS patches for ubuntu
+This repo has a script that run every 3 days to update the OS patches for ubuntu
 
 #### Login to your vps as root donwload the installapu.sh file and then run it:
 ```
