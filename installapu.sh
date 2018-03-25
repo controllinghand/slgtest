@@ -29,7 +29,7 @@ cd ~/apu/
 wget https://rawgit.com/controllinghand/ubuntuautopatchupdate/master/apu.sh
 
 # Create a cronjob for updating the OS patches for ubuntu every 3 days
-(crontab -l 2>/dev/null | grep -v -F "apu/apu.sh" ; echo "* * */3 * * ~/apu/apu.sh" ) | crontab -
+(crontab -l 2>/dev/null | grep -v -F "apu/apu.sh" ; echo "0 0 */3 * * ~/apu/apu.sh" ) | crontab -
 chmod 0700 ./apu.sh
 
 # Cleanup old installapu
