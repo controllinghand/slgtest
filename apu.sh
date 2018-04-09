@@ -3,6 +3,6 @@
 SHELL=/bin/bash
 PATH=$PATH:/usr/sbin
 # This script updates OS patches
-exec > >(tee -i /home/root/apu/apuoutput.log)
+exec > >(tee -i /root/apu/apuoutput.log)
 apt-get update
 apt-get -y upgrade
