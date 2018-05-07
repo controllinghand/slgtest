@@ -6,4 +6,4 @@ PATH=$PATH:/usr/sbin:/usr/local/sbin:/sbin
 exec > >(tee -i /root/apu/apuoutput.log)
 apt-get update
 apt-get -y upgrade
-apt autoremove
+apt -y autoremove
