@@ -7,3 +7,4 @@ exec > >(tee -i /root/apu/apuoutput.log)
 apt-get update
 apt-get -y upgrade
 apt -y autoremove
+apt-get -y dist-upgrade
